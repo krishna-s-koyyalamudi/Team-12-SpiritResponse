@@ -13,6 +13,9 @@
 		3F397B93254C8343007678B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F397B91254C8343007678B8 /* Main.storyboard */; };
 		3F397B95254C8344007678B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F397B94254C8344007678B8 /* Assets.xcassets */; };
 		3F397B98254C8344007678B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F397B96254C8344007678B8 /* LaunchScreen.storyboard */; };
+		3F644AC3255A160C00C055BC /* Wine.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F644AC2255A160C00C055BC /* Wine.png */; };
+		3F644AC5255A164200C055BC /* Beer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F644AC4255A164200C055BC /* Beer.jpg */; };
+		3F644AC7255A16A800C055BC /* Liquor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F644AC6255A16A800C055BC /* Liquor.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		3F397B94254C8344007678B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F397B97254C8344007678B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F397B99254C8344007678B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F644AC2255A160C00C055BC /* Wine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Wine.png; path = ../../../../../Downloads/Wine.png; sourceTree = "<group>"; };
+		3F644AC4255A164200C055BC /* Beer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Beer.jpg; path = ../../../../../Downloads/Beer.jpg; sourceTree = "<group>"; };
+		3F644AC6255A16A800C055BC /* Liquor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Liquor.jpg; path = ../../../../../Downloads/Liquor.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,9 @@
 				3F397B91254C8343007678B8 /* Main.storyboard */,
 				3F397B94254C8344007678B8 /* Assets.xcassets */,
 				3F397B96254C8344007678B8 /* LaunchScreen.storyboard */,
+				3F644AC2255A160C00C055BC /* Wine.png */,
+				3F644AC6255A16A800C055BC /* Liquor.jpg */,
+				3F644AC4255A164200C055BC /* Beer.jpg */,
 				3F397B99254C8344007678B8 /* Info.plist */,
 			);
 			path = "Spirit Response";
@@ -126,7 +135,10 @@
 			files = (
 				3F397B98254C8344007678B8 /* LaunchScreen.storyboard in Resources */,
 				3F397B95254C8344007678B8 /* Assets.xcassets in Resources */,
+				3F644AC5255A164200C055BC /* Beer.jpg in Resources */,
+				3F644AC3255A160C00C055BC /* Wine.png in Resources */,
 				3F397B93254C8343007678B8 /* Main.storyboard in Resources */,
+				3F644AC7255A16A800C055BC /* Liquor.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Z5-Pg-ZPL">
-                                <rect key="frame" x="247" y="670" width="92" height="96"/>
+                                <rect key="frame" x="247" y="662" width="111" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="stopBtn" image="icons8-stop-squared-96"/>
                                 <connections>
@@ -228,7 +228,7 @@
             </objects>
             <point key="canvasLocation" x="1657.9710144927537" y="363.61607142857139"/>
         </scene>
-        <!--Calculator-->
+        <!--Analyzer-->
         <scene sceneID="MEK-4A-Fbb">
             <objects>
                 <viewController id="RMY-Nz-2Tc" customClass="BACCalculatorViewController" customModule="BAC_on_two_I_s" customModuleProvider="target" sceneMemberID="viewController">
@@ -395,7 +395,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="OLR-PI-StH"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Calculator" image="plus.slash.minus" catalog="system" id="sDs-2T-IgG"/>
+                    <tabBarItem key="tabBarItem" title="Analyzer" image="plus.slash.minus" catalog="system" id="sDs-2T-IgG"/>
                     <connections>
                         <outlet property="beerTF" destination="6x4-yr-zGJ" id="IQP-al-5C2"/>
                         <outlet property="femaleBTN" destination="GcJ-SO-HzM" id="3NV-L1-vGo"/>
@@ -435,11 +435,11 @@
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
-        <!--Reactions Log-->
+        <!--Response Log-->
         <scene sceneID="Vcn-8K-gYv">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tY3-Pd-vRB" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Reactions Log" image="text.justify" catalog="system" id="kPd-td-O51"/>
+                    <tabBarItem key="tabBarItem" title="Response Log" image="text.justify" catalog="system" id="kPd-td-O51"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Iwn-Fo-K0m">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -494,11 +494,11 @@
             </objects>
             <point key="canvasLocation" x="749.27536231884062" y="-320.08928571428572"/>
         </scene>
-        <!--Reaction Graph-->
+        <!--Response Graph-->
         <scene sceneID="IG8-ux-6fE">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1hW-sV-mmb" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Reaction Graph" image="chart.bar.fill" catalog="system" id="1kq-8X-p8E"/>
+                    <tabBarItem key="tabBarItem" title="Response Graph" image="chart.bar.fill" catalog="system" id="1kq-8X-p8E"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="o3O-Oc-bTp">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -516,14 +516,14 @@
     </scenes>
     <resources>
         <image name="BAC2" width="564" height="564"/>
-        <image name="Beer.jpg" width="128" height="128"/>
-        <image name="Liquor.jpg" width="128" height="128"/>
-        <image name="Wine.png" width="128" height="128"/>
+        <image name="Beer.jpg" width="64" height="64"/>
+        <image name="Liquor.jpg" width="64" height="64"/>
+        <image name="Wine.png" width="64" height="64"/>
         <image name="chart.bar.fill" catalog="system" width="128" height="89"/>
         <image name="house" catalog="system" width="128" height="110"/>
-        <image name="icons8-float-96" width="128" height="128"/>
-        <image name="icons8-next-96" width="64" height="64"/>
-        <image name="icons8-stop-squared-96" width="64" height="64"/>
+        <image name="icons8-float-96" width="50" height="50"/>
+        <image name="icons8-next-96" width="50" height="50"/>
+        <image name="icons8-stop-squared-96" width="50" height="50"/>
         <image name="plus.slash.minus" catalog="system" width="128" height="115"/>
         <image name="text.justify" catalog="system" width="128" height="100"/>
         <image name="waveform.path.ecg" catalog="system" width="128" height="124"/>
