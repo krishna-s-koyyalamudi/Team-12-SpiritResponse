@@ -7,14 +7,22 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Reaction View Controller-->
+        <!--Response View Controller-->
         <scene sceneID="Bdq-Sq-DdY">
             <objects>
-                <viewController id="jj7-ik-uLW" customClass="ReactionViewController" customModule="BAC_on_two_I_s" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="jj7-ik-uLW" userLabel="Response View Controller" customClass="ReactionViewController" customModule="BAC_on_two_I_s" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="S2s-Mi-ANM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RnR-gb-t0O">
+                                <rect key="frame" x="62" y="669" width="102" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="startBtn" image="icons8-next-96"/>
+                                <connections>
+                                    <action selector="startBtn:" destination="jj7-ik-uLW" eventType="touchUpInside" id="RSv-ZO-cya"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Z5-Pg-ZPL">
                                 <rect key="frame" x="247" y="662" width="111" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -23,7 +31,7 @@
                                     <action selector="stopBtn:" destination="jj7-ik-uLW" eventType="touchUpInside" id="HOp-qd-bhp"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x2X-5a-MfY">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x2X-5a-MfY" userLabel="Response Area View">
                                 <rect key="frame" x="20" y="120" width="374" height="522"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
@@ -38,14 +46,6 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RnR-gb-t0O">
-                                <rect key="frame" x="62" y="669" width="102" height="96"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="startBtn" image="icons8-next-96"/>
-                                <connections>
-                                    <action selector="startBtn:" destination="jj7-ik-uLW" eventType="touchUpInside" id="RSv-ZO-cya"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="UA8-pQ-uc4"/>
@@ -60,10 +60,10 @@
             </objects>
             <point key="canvasLocation" x="1659.4202898550725" y="-320.08928571428572"/>
         </scene>
-        <!--Reactions Graph View Controller-->
+        <!--Response Graph View Controller-->
         <scene sceneID="0Ie-KB-3zS">
             <objects>
-                <viewController id="40R-4t-3zr" customClass="ReactionsGraphViewController" customModule="BAC_on_two_I_s" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="40R-4t-3zr" userLabel="Response Graph View Controller" customClass="ReactionsGraphViewController" customModule="BAC_on_two_I_s" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iZy-xe-QgK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -183,10 +183,10 @@
             </objects>
             <point key="canvasLocation" x="5352.1739130434789" y="-352.23214285714283"/>
         </scene>
-        <!--Reactions Log View Controller-->
+        <!--Response Log View Controller-->
         <scene sceneID="ca8-hP-Aim">
             <objects>
-                <tableViewController storyboardIdentifier="ReactionsLogViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="T9r-hM-5Hq" customClass="ReactionsLogViewController" customModule="BAC_on_two_I_s" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="ReactionsLogViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="T9r-hM-5Hq" userLabel="Response Log View Controller" customClass="ReactionsLogViewController" customModule="BAC_on_two_I_s" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Y2f-Zd-r7s">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
