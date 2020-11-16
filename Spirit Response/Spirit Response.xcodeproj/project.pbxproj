@@ -21,7 +21,7 @@
 		3F7823FA2562F52500876DD8 /* ResponsesGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7823F92562F52500876DD8 /* ResponsesGraphViewController.swift */; };
 		3F7823FD2562F67600876DD8 /* ResponsesLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7823FC2562F67600876DD8 /* ResponsesLogViewController.swift */; };
 		3F7824002562F70600876DD8 /* SpiritCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7823FF2562F70600876DD8 /* SpiritCalculatorViewController.swift */; };
-		3F7824032562F72D00876DD8 /* SpiritFromloTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7824022562F72D00876DD8 /* SpiritFromloTViewController.swift */; };
+		3F7824032562F72D00876DD8 /* SpiritFromIoTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7824022562F72D00876DD8 /* SpiritFromIoTViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +41,7 @@
 		3F7823F92562F52500876DD8 /* ResponsesGraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsesGraphViewController.swift; sourceTree = "<group>"; };
 		3F7823FC2562F67600876DD8 /* ResponsesLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsesLogViewController.swift; sourceTree = "<group>"; };
 		3F7823FF2562F70600876DD8 /* SpiritCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritCalculatorViewController.swift; sourceTree = "<group>"; };
-		3F7824022562F72D00876DD8 /* SpiritFromloTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritFromloTViewController.swift; sourceTree = "<group>"; };
+		3F7824022562F72D00876DD8 /* SpiritFromIoTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritFromIoTViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 				3F7823F92562F52500876DD8 /* ResponsesGraphViewController.swift */,
 				3F7823FC2562F67600876DD8 /* ResponsesLogViewController.swift */,
 				3F7823FF2562F70600876DD8 /* SpiritCalculatorViewController.swift */,
-				3F7824022562F72D00876DD8 /* SpiritFromloTViewController.swift */,
+				3F7824022562F72D00876DD8 /* SpiritFromIoTViewController.swift */,
 			);
 			path = "Spirit Response";
 			sourceTree = "<group>";
@@ -173,7 +173,7 @@
 				3F7824002562F70600876DD8 /* SpiritCalculatorViewController.swift in Sources */,
 				3F397B8E254C8343007678B8 /* SceneDelegate.swift in Sources */,
 				3F7823FD2562F67600876DD8 /* ResponsesLogViewController.swift in Sources */,
-				3F7824032562F72D00876DD8 /* SpiritFromloTViewController.swift in Sources */,
+				3F7824032562F72D00876DD8 /* SpiritFromIoTViewController.swift in Sources */,
 				3F7823FA2562F52500876DD8 /* ResponsesGraphViewController.swift in Sources */,
 				3F7823F62562F34800876DD8 /* Responses.swift in Sources */,
 			);

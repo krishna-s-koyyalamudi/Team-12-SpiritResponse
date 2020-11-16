@@ -63,4 +63,15 @@ class Responses {
             return nil
         }
     }
+    
+    /// numReactions to show the count of reactions recorded
+    func numResponses()->Int{
+        return responses.count
+    }
+    
+    /// Subscript that returns an integer
+    subscript(index:Int) -> Response? {
+        return index >= 0 && index < responses.count ? responses[index] : nil
+    }
+    
 }

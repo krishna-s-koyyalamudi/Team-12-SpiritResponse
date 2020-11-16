@@ -8,12 +8,12 @@
 import UIKit
 
 // ReactionsGraphViewController class to represent the graph
-class ReactionsGraphViewController: UIViewController {
-    var reactions = Responses.shared
+class ResponsesGraphViewController: UIViewController {
+    var responses = Responses.shared
     
     /// Outlets for slider and label
-    @IBOutlet weak var reactionSlider:UISlider!
-    @IBOutlet weak var reactionCountLBL:UILabel!
+    @IBOutlet weak var responseSlider:UISlider!
+    @IBOutlet weak var responseCountLBL:UILabel!
     
     /// Method to draw the graph
     @IBAction func drawGraph(sender: UISlider){

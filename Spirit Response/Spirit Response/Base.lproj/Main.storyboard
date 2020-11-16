@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Response View Controller-->
         <scene sceneID="Bdq-Sq-DdY">
             <objects>
-                <viewController id="jj7-ik-uLW" userLabel="Response View Controller" customClass="ReactionViewController" customModule="BAC_on_two_I_s" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="jj7-ik-uLW" userLabel="Response View Controller" customClass="ResponseViewController" customModule="Spirit_Response" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="S2s-Mi-ANM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -44,11 +45,11 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="UA8-pQ-uc4"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="oZm-3C-Qfq"/>
                     <connections>
@@ -63,7 +64,7 @@
         <!--Response Graph View Controller-->
         <scene sceneID="0Ie-KB-3zS">
             <objects>
-                <viewController id="40R-4t-3zr" userLabel="Response Graph View Controller" customClass="ReactionsGraphViewController" customModule="BAC_on_two_I_s" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="40R-4t-3zr" userLabel="Response Graph View Controller" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iZy-xe-QgK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -83,8 +84,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Ekw-6H-ls4"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="JTt-4X-lkG"/>
                     <connections>
@@ -96,10 +97,10 @@
             </objects>
             <point key="canvasLocation" x="3547.826086956522" y="-341.51785714285711"/>
         </scene>
-        <!--From IoT View Controller-->
+        <!--Spirit From IoT View Controller-->
         <scene sceneID="8HD-xg-KYb">
             <objects>
-                <viewController id="qBY-cw-TLt" customClass="BACFromIoTViewController" customModule="BAC_on_two_I_s" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="qBY-cw-TLt" customClass="SpiritFromIoTViewController" customModule="Spirit_Response" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Be6-oc-ePm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -150,10 +151,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CKq-Li-9Ym">
+                            <button opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CKq-Li-9Ym">
                                 <rect key="frame" x="168.90308607579755" y="635" width="76" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="titleShadowOffset" width="2" height="8"/>
                                 <state key="normal" title="Get BAC">
@@ -169,8 +170,8 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="yPb-X9-dJG"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="bEK-J0-lP9"/>
                     <connections>
@@ -186,11 +187,11 @@
         <!--Response Log View Controller-->
         <scene sceneID="ca8-hP-Aim">
             <objects>
-                <tableViewController storyboardIdentifier="ReactionsLogViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="T9r-hM-5Hq" userLabel="Response Log View Controller" customClass="ReactionsLogViewController" customModule="BAC_on_two_I_s" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="ReactionsLogViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="T9r-hM-5Hq" userLabel="Response Log View Controller" customClass="ResponsesLogViewController" customModule="Spirit_Response" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Y2f-Zd-r7s">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="bac" id="wNx-eo-viC">
                                 <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
@@ -231,7 +232,7 @@
         <!--Analyzer-->
         <scene sceneID="MEK-4A-Fbb">
             <objects>
-                <viewController id="RMY-Nz-2Tc" customClass="BACCalculatorViewController" customModule="BAC_on_two_I_s" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="RMY-Nz-2Tc" customClass="SpiritCalculatorViewController" customModule="Spirit_Response" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zpt-Rp-4k3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -250,7 +251,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Prl-0d-v8j">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Prl-0d-v8j">
                                 <rect key="frame" x="236" y="591" width="97" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
@@ -259,7 +260,7 @@
                                     <action selector="clearWithSender:" destination="RMY-Nz-2Tc" eventType="touchUpInside" id="ga6-VG-pBR"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qKK-55-g4n">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qKK-55-g4n">
                                 <rect key="frame" x="74" y="590" width="102" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
@@ -352,7 +353,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pya-14-Hqu">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pya-14-Hqu">
                                 <rect key="frame" x="103" y="116" width="58" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="54"/>
@@ -368,12 +369,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GcJ-SO-HzM">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GcJ-SO-HzM">
                                 <rect key="frame" x="253" y="116" width="58" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="54"/>
                                 <state key="normal" title="♀">
-                                    <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" systemColor="systemPinkColor"/>
                                 </state>
                                 <connections>
                                     <action selector="femaleButtonWithSender:" destination="RMY-Nz-2Tc" eventType="touchUpInside" id="oNT-eD-OtX"/>
@@ -392,8 +393,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="OLR-PI-StH"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Analyzer" image="plus.slash.minus" catalog="system" id="sDs-2T-IgG"/>
                     <connections>
@@ -478,7 +479,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1DV-A6-x2N" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="Q2R-3F-coF">
-                        <color key="badgeColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="badgeColor" systemColor="darkTextColor"/>
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Da2-8W-M3n">
@@ -519,13 +520,25 @@
         <image name="Beer.jpg" width="64" height="64"/>
         <image name="Liquor.jpg" width="64" height="64"/>
         <image name="Wine.png" width="64" height="64"/>
-        <image name="chart.bar.fill" catalog="system" width="128" height="89"/>
-        <image name="house" catalog="system" width="128" height="110"/>
+        <image name="chart.bar.fill" catalog="system" width="128" height="92"/>
+        <image name="house" catalog="system" width="128" height="106"/>
         <image name="icons8-float-96" width="50" height="50"/>
         <image name="icons8-next-96" width="50" height="50"/>
         <image name="icons8-stop-squared-96" width="50" height="50"/>
         <image name="plus.slash.minus" catalog="system" width="128" height="115"/>
         <image name="text.justify" catalog="system" width="128" height="100"/>
         <image name="waveform.path.ecg" catalog="system" width="128" height="124"/>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>
