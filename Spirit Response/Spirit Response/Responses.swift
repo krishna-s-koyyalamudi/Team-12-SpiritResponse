@@ -24,4 +24,43 @@ class Responses {
         }
         return _shared
     }
+    
+    private var responses:[Response] = []
+    private var days = ["Sundnay", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+    
+    /// Private initializer for the class
+    private init(){
+        let query = PFQuery(className:"ResponsesData")
+        query.whereKey("user", equalTo:"new")
+        query.findObjectsInBackground { (objects: [PFObject]?, error: Error?) in
+            if let error = error {
+                // Log details of the failure
+                print(error.localizedDescription)
+            } else if let objects = objects {
+                // The find succeeded.
+                print("Successfully retrieved \(objects.count) scores.")
+                // Do something with the found objects
+                for object in objects {
+                    let formatter = DateFormatter()
+                    formatter.dateFormat = "MM/dd/yyyy HH:mm:ss +SSSS"
+                    formatter.timeZone = .autoupdatingCurrent
+                    let startTimeRaw = String(describing: object.object(forKey: "startTime")!)
+                    let endTimeRaw = String(describing: object.object(forKey: "endTime")!)
+                    let user = "new"
+                    let response = Response(startTime: startTimeRaw, endTime: endTimeRaw, user: user)
+                    self.responses.append(response)
+                }
+            }
+        }
+    }
+    
+    /// getReaction to get the particular reaction
+    /// - Parameter index: index
+    func getResponse(at index:Int)->Response? {
+        if index >= 0 && index < responses.count {
+            return responses[index]
+        } else {
+            return nil
+        }
+    }
 }
