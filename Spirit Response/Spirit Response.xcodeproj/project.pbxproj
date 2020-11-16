@@ -16,6 +16,12 @@
 		3F644AC3255A160C00C055BC /* Wine.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F644AC2255A160C00C055BC /* Wine.png */; };
 		3F644AC5255A164200C055BC /* Beer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F644AC4255A164200C055BC /* Beer.jpg */; };
 		3F644AC7255A16A800C055BC /* Liquor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F644AC6255A16A800C055BC /* Liquor.jpg */; };
+		3F7823F32562F2E100876DD8 /* ResponseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7823F22562F2E100876DD8 /* ResponseViewController.swift */; };
+		3F7823F62562F34800876DD8 /* Responses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7823F52562F34800876DD8 /* Responses.swift */; };
+		3F7823FA2562F52500876DD8 /* ResponsesGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7823F92562F52500876DD8 /* ResponsesGraphViewController.swift */; };
+		3F7823FD2562F67600876DD8 /* ResponsesLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7823FC2562F67600876DD8 /* ResponsesLogViewController.swift */; };
+		3F7824002562F70600876DD8 /* SpiritCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7823FF2562F70600876DD8 /* SpiritCalculatorViewController.swift */; };
+		3F7824032562F72D00876DD8 /* SpiritFromloTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7824022562F72D00876DD8 /* SpiritFromloTViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +36,12 @@
 		3F644AC2255A160C00C055BC /* Wine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Wine.png; path = ../../../../../Downloads/Wine.png; sourceTree = "<group>"; };
 		3F644AC4255A164200C055BC /* Beer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Beer.jpg; path = ../../../../../Downloads/Beer.jpg; sourceTree = "<group>"; };
 		3F644AC6255A16A800C055BC /* Liquor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Liquor.jpg; path = ../../../../../Downloads/Liquor.jpg; sourceTree = "<group>"; };
+		3F7823F22562F2E100876DD8 /* ResponseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseViewController.swift; sourceTree = "<group>"; };
+		3F7823F52562F34800876DD8 /* Responses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Responses.swift; sourceTree = "<group>"; };
+		3F7823F92562F52500876DD8 /* ResponsesGraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsesGraphViewController.swift; sourceTree = "<group>"; };
+		3F7823FC2562F67600876DD8 /* ResponsesLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsesLogViewController.swift; sourceTree = "<group>"; };
+		3F7823FF2562F70600876DD8 /* SpiritCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritCalculatorViewController.swift; sourceTree = "<group>"; };
+		3F7824022562F72D00876DD8 /* SpiritFromloTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritFromloTViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,12 +78,18 @@
 				3F397B8D254C8343007678B8 /* SceneDelegate.swift */,
 				3F397B8F254C8343007678B8 /* ViewController.swift */,
 				3F397B91254C8343007678B8 /* Main.storyboard */,
+				3F7823F22562F2E100876DD8 /* ResponseViewController.swift */,
+				3F7823F52562F34800876DD8 /* Responses.swift */,
 				3F397B94254C8344007678B8 /* Assets.xcassets */,
 				3F397B96254C8344007678B8 /* LaunchScreen.storyboard */,
 				3F644AC2255A160C00C055BC /* Wine.png */,
 				3F644AC6255A16A800C055BC /* Liquor.jpg */,
 				3F644AC4255A164200C055BC /* Beer.jpg */,
 				3F397B99254C8344007678B8 /* Info.plist */,
+				3F7823F92562F52500876DD8 /* ResponsesGraphViewController.swift */,
+				3F7823FC2562F67600876DD8 /* ResponsesLogViewController.swift */,
+				3F7823FF2562F70600876DD8 /* SpiritCalculatorViewController.swift */,
+				3F7824022562F72D00876DD8 /* SpiritFromloTViewController.swift */,
 			);
 			path = "Spirit Response";
 			sourceTree = "<group>";
@@ -150,8 +168,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F397B90254C8343007678B8 /* ViewController.swift in Sources */,
+				3F7823F32562F2E100876DD8 /* ResponseViewController.swift in Sources */,
 				3F397B8C254C8343007678B8 /* AppDelegate.swift in Sources */,
+				3F7824002562F70600876DD8 /* SpiritCalculatorViewController.swift in Sources */,
 				3F397B8E254C8343007678B8 /* SceneDelegate.swift in Sources */,
+				3F7823FD2562F67600876DD8 /* ResponsesLogViewController.swift in Sources */,
+				3F7824032562F72D00876DD8 /* SpiritFromloTViewController.swift in Sources */,
+				3F7823FA2562F52500876DD8 /* ResponsesGraphViewController.swift in Sources */,
+				3F7823F62562F34800876DD8 /* Responses.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
