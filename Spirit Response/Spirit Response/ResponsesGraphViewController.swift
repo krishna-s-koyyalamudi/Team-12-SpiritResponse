@@ -17,7 +17,7 @@ class ResponsesGraphViewController: UIViewController {
     
     /// Method to draw the graph
     @IBAction func drawGraph(sender: UISlider){
-        setData(sender: sender)
+        setData(sender: sender);
     }
 
 }
