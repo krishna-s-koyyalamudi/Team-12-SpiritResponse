@@ -22,7 +22,7 @@ class SpiritFromIoTViewController: UIViewController {
     /// getSpirit for the getting Spirit value from some API
     /// - Parameter sender: UIButton
     @IBAction func getSpirit(sender: Any){
-        //as of now displaying all static data
+        
         let rate = 10.45
         let stage = "Sobriety"
         let recordedAt = "Fri 10:16 PM"
@@ -31,7 +31,7 @@ class SpiritFromIoTViewController: UIViewController {
         recordedAtLBL.text = recordedAt
     }
     
-    /// viewDidLoad() method
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.title = "Spirit from IoT"
