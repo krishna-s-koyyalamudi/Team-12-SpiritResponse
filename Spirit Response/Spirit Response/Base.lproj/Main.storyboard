@@ -39,7 +39,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R1q-fg-leY">
                                         <rect key="frame" x="150" y="129" width="75" height="72"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="reactionBtn" image="icons8-float-96"/>
+                                        <state key="normal" title="responseBtn" image="icons8-float-96"/>
                                         <connections>
                                             <action selector="reactionBtn:" destination="jj7-ik-uLW" eventType="touchUpInside" id="lPX-Nx-8Tc"/>
                                         </connections>

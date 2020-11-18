@@ -7,7 +7,7 @@
 
 import UIKit
 
-// ReactionsGraphViewController class to represent the graph
+// ResponsesGraphViewController class to represent the graph
 class ResponsesGraphViewController: UIViewController {
     var responses = Responses.shared
     
@@ -19,7 +19,7 @@ class ResponsesGraphViewController: UIViewController {
     @IBAction func drawGraph(sender: UISlider){
         setData(sender: sender);
     }
-    /// static data as of now to display graph, y values as reaction time in seconds, x axis as number of reactions.
+    /// static data as of now to display graph, y values as response time in seconds, x axis as number of responses.
     var graphValues:[ChartDataEntry] = []
     
     /// lineChartView for displaying the chart
@@ -49,26 +49,26 @@ class ResponsesGraphViewController: UIViewController {
     /// viewDidLoad() method
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = "Reaction Graph"
+        navigationItem.title = "Response Graph"
         view.addSubview(lineChartView)
         lineChartView.centerInSuperview()
         lineChartView.width(to: view)
         lineChartView.heightToWidth(of: view)
-        setData(sender: reactionSlider)
+        setData(sender: responseSlider)
     }
     
     /// setData funcion to set data on graph
     func setData(sender:UISlider){
-        let percentageValue  = Int(floor(sender.value * Float(reactions.numReactions())))
+        let percentageValue  = Int(floor(sender.value * Float(responses.numResponses())))
         self.graphValues = []
-        reactionCountLBL.text = "First \(percentageValue) Values"
+        responseCountLBL.text = "First \(percentageValue) Values"
         for index in 0..<percentageValue{
-            if self.reactions.getReaction(at: index) != nil {
-                let ySeconds = reactions.getReactionTime(indes: index)
+            if self.responses.getResponse(at: index) != nil {
+                let ySeconds = responses.getResponseTime(indes: index)
                 self.graphValues.append(ChartDataEntry(x: Double(index), y: ySeconds))
             }
         }
-        let dataSet = LineChartDataSet(entries: self.graphValues, label: "Reaction Time in seconds")
+        let dataSet = LineChartDataSet(entries: self.graphValues, label: "Response Time in seconds")
         dataSet.lineWidth = 2
         let data = LineChartData(dataSet: dataSet)
         self.lineChartView.data = data

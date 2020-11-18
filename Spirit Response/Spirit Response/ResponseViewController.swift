@@ -7,16 +7,16 @@
 
 import UIKit
 
-/// ReactionViewController class for home page
+/// ResponseViewController class for home page
 class ResponseViewController: UIViewController {
     var startTime = "startTime"
     var endTime = "endTime"
-    var reactions = Responses.shared
+    var responses = Responses.shared
     
     /// blinking button to display at random positions
     @IBOutlet weak var blinkingButton:UIButton!
     /// view for the blinking button
-    @IBOutlet weak var reactionAreaView: UIView!
+    @IBOutlet weak var responseAreaView: UIView!
     
     /// viewDidLoad() method
     override func viewDidLoad() {
@@ -24,7 +24,7 @@ class ResponseViewController: UIViewController {
         blinkingButton.isHidden = true
         navigationItem.title = "Try How Fast you React!"
     }
-    /// startBtn to start to display the blinking button to start calculate reaction
+    /// startBtn to start to display the blinking button to start calculate response
     /// - Parameter sender: UIButton
     @IBAction func startBtn(_ sender: Any) {
         blinkingButton.isHidden = false
@@ -39,17 +39,17 @@ class ResponseViewController: UIViewController {
     @IBAction func stopBtn(_ sender: Any) {
         blinkingButton.isHidden = true
     }
-    /// reactionBtn to relocate the blinking button when clicked
+    /// responseBtn to relocate the blinking button when clicked
     /// - Parameter sender: UIButton
-    @IBAction func reactionBTN(_ sender: Any) {
+    @IBAction func responseBTN(_ sender: Any) {
         let dateTime = Date()
         let formatter = DateFormatter()
         formatter.timeZone = .current
         formatter.dateFormat = "MM/dd/yyyy HH:mm:ss +SSSS"
         endTime = formatter.string(from: dateTime as Date)
         
-        reactions.addReaction(startTime: startTime, endTime: endTime)
-        NotificationCenter.default.post(name: NSNotification.Name(rawValue:"Added Reaction"), object: nil)
+        responses.addResponse(startTime: startTime, endTime: endTime)
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue:"Added Response"), object: nil)
         startTime = endTime
         
         // Find the blinkingButton's width and height
