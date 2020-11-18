@@ -42,6 +42,7 @@
                                         <state key="normal" title="responseBtn" image="icons8-float-96"/>
                                         <connections>
                                             <action selector="reactionBtn:" destination="jj7-ik-uLW" eventType="touchUpInside" id="lPX-Nx-8Tc"/>
+                                            <action selector="responseBTN:" destination="jj7-ik-uLW" eventType="touchUpInside" id="fGO-S4-Bue"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -64,7 +65,7 @@
         <!--Response Graph View Controller-->
         <scene sceneID="0Ie-KB-3zS">
             <objects>
-                <viewController id="40R-4t-3zr" userLabel="Response Graph View Controller" sceneMemberID="viewController">
+                <viewController id="40R-4t-3zr" userLabel="Response Graph View Controller" customClass="ResponsesGraphViewController" customModule="Spirit_Response" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iZy-xe-QgK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -89,8 +90,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="JTt-4X-lkG"/>
                     <connections>
-                        <outlet property="reactionCountLBL" destination="4AR-jw-7cj" id="SOv-4j-3Qg"/>
-                        <outlet property="reactionSlider" destination="wlf-9Y-BON" id="smn-Np-vvj"/>
+                        <outlet property="responseCountLBL" destination="4AR-jw-7cj" id="6K6-OW-KIJ"/>
+                        <outlet property="responseSlider" destination="wlf-9Y-BON" id="KjS-bB-PEh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6ZP-bM-RgY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
