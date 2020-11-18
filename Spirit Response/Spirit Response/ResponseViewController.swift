@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Parse
 
 /// ResponseViewController class for home page
 class ResponseViewController: UIViewController {

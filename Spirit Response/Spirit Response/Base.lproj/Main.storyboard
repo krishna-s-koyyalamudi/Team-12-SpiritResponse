@@ -168,6 +168,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="getBACWithSender:" destination="qBY-cw-TLt" eventType="touchUpInside" id="nGe-mz-B59"/>
+                                    <action selector="getSpiritWithSender:" destination="qBY-cw-TLt" eventType="touchUpInside" id="Lpf-nI-MaQ"/>
                                 </connections>
                             </button>
                         </subviews>

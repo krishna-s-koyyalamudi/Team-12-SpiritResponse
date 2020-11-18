@@ -77,16 +77,16 @@
 				3F7823F22562F2E100876DD8 /* ResponseViewController.swift */,
 				3F7823F92562F52500876DD8 /* ResponsesGraphViewController.swift */,
 				3F7823FC2562F67600876DD8 /* ResponsesLogViewController.swift */,
+				3F7823FF2562F70600876DD8 /* SpiritCalculatorViewController.swift */,
+				3F7824022562F72D00876DD8 /* SpiritFromIoTViewController.swift */,
 				3F397B91254C8343007678B8 /* Main.storyboard */,
-				3F7823F52562F34800876DD8 /* Responses.swift */,
 				3F397B94254C8344007678B8 /* Assets.xcassets */,
 				3F397B96254C8344007678B8 /* LaunchScreen.storyboard */,
 				3F644AC2255A160C00C055BC /* Wine.png */,
 				3F644AC6255A16A800C055BC /* Liquor.jpg */,
 				3F644AC4255A164200C055BC /* Beer.jpg */,
 				3F397B99254C8344007678B8 /* Info.plist */,
-				3F7823FF2562F70600876DD8 /* SpiritCalculatorViewController.swift */,
-				3F7824022562F72D00876DD8 /* SpiritFromIoTViewController.swift */,
+				3F7823F52562F34800876DD8 /* Responses.swift */,
 			);
 			path = "Spirit Response";
 			sourceTree = "<group>";
