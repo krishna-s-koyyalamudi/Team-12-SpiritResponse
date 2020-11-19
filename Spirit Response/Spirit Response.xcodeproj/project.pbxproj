@@ -11,9 +11,6 @@
 		3F397B93254C8343007678B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F397B91254C8343007678B8 /* Main.storyboard */; };
 		3F397B95254C8344007678B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F397B94254C8344007678B8 /* Assets.xcassets */; };
 		3F397B98254C8344007678B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F397B96254C8344007678B8 /* LaunchScreen.storyboard */; };
-		3F644AC3255A160C00C055BC /* Wine.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F644AC2255A160C00C055BC /* Wine.png */; };
-		3F644AC5255A164200C055BC /* Beer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F644AC4255A164200C055BC /* Beer.jpg */; };
-		3F644AC7255A16A800C055BC /* Liquor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F644AC6255A16A800C055BC /* Liquor.jpg */; };
 		3F7823F62562F34800876DD8 /* Responses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7823F52562F34800876DD8 /* Responses.swift */; };
 		3F7823FA2562F52500876DD8 /* ResponsesGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7823F92562F52500876DD8 /* ResponsesGraphViewController.swift */; };
 		3F7823FD2562F67600876DD8 /* ResponsesLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7823FC2562F67600876DD8 /* ResponsesLogViewController.swift */; };
@@ -21,6 +18,9 @@
 		3F7824032562F72D00876DD8 /* SpiritFromIoTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7824022562F72D00876DD8 /* SpiritFromIoTViewController.swift */; };
 		3FAD958D2566203800A652F8 /* ResponseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAD958C2566203800A652F8 /* ResponseViewController.swift */; };
 		3FEFC7C92566E1C000B03717 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFC7C82566E1C000B03717 /* AppDelegate.swift */; };
+		3FEFC7E42566E9BC00B03717 /* Wine.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FEFC7E12566E9BC00B03717 /* Wine.png */; };
+		3FEFC7E52566E9BC00B03717 /* Beer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FEFC7E22566E9BC00B03717 /* Beer.jpg */; };
+		3FEFC7E62566E9BC00B03717 /* Liquor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FEFC7E32566E9BC00B03717 /* Liquor.jpg */; };
 		7E70C9BB388BCD231E22DFD6 /* libPods-Spirit Response.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 650B6BA00202F1D0A3CCED2A /* libPods-Spirit Response.a */; };
 /* End PBXBuildFile section */
 
@@ -32,9 +32,6 @@
 		3F397B94254C8344007678B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F397B97254C8344007678B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F397B99254C8344007678B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F644AC2255A160C00C055BC /* Wine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Wine.png; path = ../../../../../Downloads/Wine.png; sourceTree = "<group>"; };
-		3F644AC4255A164200C055BC /* Beer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Beer.jpg; path = ../../../../../Downloads/Beer.jpg; sourceTree = "<group>"; };
-		3F644AC6255A16A800C055BC /* Liquor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Liquor.jpg; path = ../../../../../Downloads/Liquor.jpg; sourceTree = "<group>"; };
 		3F7823F52562F34800876DD8 /* Responses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Responses.swift; sourceTree = "<group>"; };
 		3F7823F92562F52500876DD8 /* ResponsesGraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsesGraphViewController.swift; sourceTree = "<group>"; };
 		3F7823FC2562F67600876DD8 /* ResponsesLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsesLogViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +39,9 @@
 		3F7824022562F72D00876DD8 /* SpiritFromIoTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritFromIoTViewController.swift; sourceTree = "<group>"; };
 		3FAD958C2566203800A652F8 /* ResponseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseViewController.swift; sourceTree = "<group>"; };
 		3FEFC7C82566E1C000B03717 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FEFC7E12566E9BC00B03717 /* Wine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wine.png; sourceTree = "<group>"; };
+		3FEFC7E22566E9BC00B03717 /* Beer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Beer.jpg; sourceTree = "<group>"; };
+		3FEFC7E32566E9BC00B03717 /* Liquor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Liquor.jpg; sourceTree = "<group>"; };
 		650B6BA00202F1D0A3CCED2A /* libPods-Spirit Response.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Spirit Response.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF987179AC9E311A86E7E70D /* Pods-Spirit Response.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spirit Response.release.xcconfig"; path = "Target Support Files/Pods-Spirit Response/Pods-Spirit Response.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,10 +97,10 @@
 				3F7824022562F72D00876DD8 /* SpiritFromIoTViewController.swift */,
 				3F397B91254C8343007678B8 /* Main.storyboard */,
 				3F397B94254C8344007678B8 /* Assets.xcassets */,
-				3F644AC2255A160C00C055BC /* Wine.png */,
+				3FEFC7E22566E9BC00B03717 /* Beer.jpg */,
+				3FEFC7E32566E9BC00B03717 /* Liquor.jpg */,
+				3FEFC7E12566E9BC00B03717 /* Wine.png */,
 				3F397B96254C8344007678B8 /* LaunchScreen.storyboard */,
-				3F644AC6255A16A800C055BC /* Liquor.jpg */,
-				3F644AC4255A164200C055BC /* Beer.jpg */,
 				3F397B99254C8344007678B8 /* Info.plist */,
 				3F7823F52562F34800876DD8 /* Responses.swift */,
 			);
@@ -176,10 +176,10 @@
 			files = (
 				3F397B98254C8344007678B8 /* LaunchScreen.storyboard in Resources */,
 				3F397B95254C8344007678B8 /* Assets.xcassets in Resources */,
-				3F644AC5255A164200C055BC /* Beer.jpg in Resources */,
-				3F644AC3255A160C00C055BC /* Wine.png in Resources */,
+				3FEFC7E52566E9BC00B03717 /* Beer.jpg in Resources */,
+				3FEFC7E42566E9BC00B03717 /* Wine.png in Resources */,
 				3F397B93254C8343007678B8 /* Main.storyboard in Resources */,
-				3F644AC7255A16A800C055BC /* Liquor.jpg in Resources */,
+				3FEFC7E62566E9BC00B03717 /* Liquor.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
