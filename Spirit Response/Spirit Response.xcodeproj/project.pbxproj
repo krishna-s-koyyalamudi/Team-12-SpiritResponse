@@ -7,43 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F1831C6256643AC00D4CE66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1831C5256643AC00D4CE66 /* AppDelegate.swift */; };
 		3F397B8E254C8343007678B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F397B8D254C8343007678B8 /* SceneDelegate.swift */; };
 		3F397B93254C8343007678B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F397B91254C8343007678B8 /* Main.storyboard */; };
 		3F397B95254C8344007678B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F397B94254C8344007678B8 /* Assets.xcassets */; };
 		3F397B98254C8344007678B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F397B96254C8344007678B8 /* LaunchScreen.storyboard */; };
-		3F644AC3255A160C00C055BC /* Wine.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F644AC2255A160C00C055BC /* Wine.png */; };
-		3F644AC5255A164200C055BC /* Beer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F644AC4255A164200C055BC /* Beer.jpg */; };
-		3F644AC7255A16A800C055BC /* Liquor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F644AC6255A16A800C055BC /* Liquor.jpg */; };
 		3F7823F62562F34800876DD8 /* Responses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7823F52562F34800876DD8 /* Responses.swift */; };
 		3F7823FA2562F52500876DD8 /* ResponsesGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7823F92562F52500876DD8 /* ResponsesGraphViewController.swift */; };
 		3F7823FD2562F67600876DD8 /* ResponsesLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7823FC2562F67600876DD8 /* ResponsesLogViewController.swift */; };
 		3F7824002562F70600876DD8 /* SpiritCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7823FF2562F70600876DD8 /* SpiritCalculatorViewController.swift */; };
 		3F7824032562F72D00876DD8 /* SpiritFromIoTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7824022562F72D00876DD8 /* SpiritFromIoTViewController.swift */; };
 		3FAD958D2566203800A652F8 /* ResponseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAD958C2566203800A652F8 /* ResponseViewController.swift */; };
-		3FAD95902566216500A652F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAD958F2566216500A652F8 /* AppDelegate.swift */; };
-		4BF895983AF11057835EBAEC /* Pods_Spirit_Response.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D75AE9761CAFC3F30EE5E2 /* Pods_Spirit_Response.framework */; };
+		7F8FDAC952235A9E7B154C57 /* libPods-Spirit Response.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B6950BFFB7D39D3A3148A2 /* libPods-Spirit Response.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		17DB40CA3C595B5A459C8DDF /* Pods-Spirit Response.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spirit Response.debug.xcconfig"; path = "Target Support Files/Pods-Spirit Response/Pods-Spirit Response.debug.xcconfig"; sourceTree = "<group>"; };
-		18D75AE9761CAFC3F30EE5E2 /* Pods_Spirit_Response.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spirit_Response.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1831C5256643AC00D4CE66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F397B88254C8343007678B8 /* Spirit Response.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spirit Response.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F397B8D254C8343007678B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3F397B92254C8343007678B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F397B94254C8344007678B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F397B97254C8344007678B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F397B99254C8344007678B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F644AC2255A160C00C055BC /* Wine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Wine.png; path = ../../../../../Downloads/Wine.png; sourceTree = "<group>"; };
-		3F644AC4255A164200C055BC /* Beer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Beer.jpg; path = ../../../../../Downloads/Beer.jpg; sourceTree = "<group>"; };
-		3F644AC6255A16A800C055BC /* Liquor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Liquor.jpg; path = ../../../../../Downloads/Liquor.jpg; sourceTree = "<group>"; };
 		3F7823F52562F34800876DD8 /* Responses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Responses.swift; sourceTree = "<group>"; };
 		3F7823F92562F52500876DD8 /* ResponsesGraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsesGraphViewController.swift; sourceTree = "<group>"; };
 		3F7823FC2562F67600876DD8 /* ResponsesLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsesLogViewController.swift; sourceTree = "<group>"; };
 		3F7823FF2562F70600876DD8 /* SpiritCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritCalculatorViewController.swift; sourceTree = "<group>"; };
 		3F7824022562F72D00876DD8 /* SpiritFromIoTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritFromIoTViewController.swift; sourceTree = "<group>"; };
 		3FAD958C2566203800A652F8 /* ResponseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseViewController.swift; sourceTree = "<group>"; };
-		3FAD958F2566216500A652F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
-		FF987179AC9E311A86E7E70D /* Pods-Spirit Response.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spirit Response.release.xcconfig"; path = "Target Support Files/Pods-Spirit Response/Pods-Spirit Response.release.xcconfig"; sourceTree = "<group>"; };
+		9E5D6ED0BC6E52B16733C10B /* Pods-Spirit Response.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spirit Response.release.xcconfig"; path = "Target Support Files/Pods-Spirit Response/Pods-Spirit Response.release.xcconfig"; sourceTree = "<group>"; };
+		B2B6950BFFB7D39D3A3148A2 /* libPods-Spirit Response.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Spirit Response.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4A1D7C3CBF3E3926AE5D041 /* Pods-Spirit Response.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spirit Response.debug.xcconfig"; path = "Target Support Files/Pods-Spirit Response/Pods-Spirit Response.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,18 +45,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BF895983AF11057835EBAEC /* Pods_Spirit_Response.framework in Frameworks */,
+				7F8FDAC952235A9E7B154C57 /* libPods-Spirit Response.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D5C4DF3AAA779A6C6C9BEF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2B6950BFFB7D39D3A3148A2 /* libPods-Spirit Response.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		17AF5C44E0D66CC845EDFD75 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				17DB40CA3C595B5A459C8DDF /* Pods-Spirit Response.debug.xcconfig */,
-				FF987179AC9E311A86E7E70D /* Pods-Spirit Response.release.xcconfig */,
+				D4A1D7C3CBF3E3926AE5D041 /* Pods-Spirit Response.debug.xcconfig */,
+				9E5D6ED0BC6E52B16733C10B /* Pods-Spirit Response.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -73,7 +75,7 @@
 				3F397B8A254C8343007678B8 /* Spirit Response */,
 				3F397B89254C8343007678B8 /* Products */,
 				17AF5C44E0D66CC845EDFD75 /* Pods */,
-				689E8A278D2F8B2711A80873 /* Frameworks */,
+				0D5C4DF3AAA779A6C6C9BEF5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,7 +90,7 @@
 		3F397B8A254C8343007678B8 /* Spirit Response */ = {
 			isa = PBXGroup;
 			children = (
-				3FAD958F2566216500A652F8 /* AppDelegate.swift */,
+				3F1831C5256643AC00D4CE66 /* AppDelegate.swift */,
 				3F397B8D254C8343007678B8 /* SceneDelegate.swift */,
 				3FAD958C2566203800A652F8 /* ResponseViewController.swift */,
 				3F7823F92562F52500876DD8 /* ResponsesGraphViewController.swift */,
@@ -97,22 +99,11 @@
 				3F7824022562F72D00876DD8 /* SpiritFromIoTViewController.swift */,
 				3F397B91254C8343007678B8 /* Main.storyboard */,
 				3F397B94254C8344007678B8 /* Assets.xcassets */,
-				3F644AC2255A160C00C055BC /* Wine.png */,
 				3F397B96254C8344007678B8 /* LaunchScreen.storyboard */,
-				3F644AC6255A16A800C055BC /* Liquor.jpg */,
-				3F644AC4255A164200C055BC /* Beer.jpg */,
 				3F397B99254C8344007678B8 /* Info.plist */,
 				3F7823F52562F34800876DD8 /* Responses.swift */,
 			);
 			path = "Spirit Response";
-			sourceTree = "<group>";
-		};
-		689E8A278D2F8B2711A80873 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				18D75AE9761CAFC3F30EE5E2 /* Pods_Spirit_Response.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,11 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F397B9C254C8344007678B8 /* Build configuration list for PBXNativeTarget "Spirit Response" */;
 			buildPhases = (
-				CEC5C2243DA2F4811B4BD3FA /* [CP] Check Pods Manifest.lock */,
+				D5F34939D53F993700BDE235 /* [CP] Check Pods Manifest.lock */,
 				3F397B84254C8343007678B8 /* Sources */,
 				3F397B85254C8343007678B8 /* Frameworks */,
 				3F397B86254C8343007678B8 /* Resources */,
-				7B4A5BFE9324680C55693E54 /* [CP] Embed Pods Frameworks */,
+				39F4F7BE806F0C7344D471F6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,34 +167,31 @@
 			files = (
 				3F397B98254C8344007678B8 /* LaunchScreen.storyboard in Resources */,
 				3F397B95254C8344007678B8 /* Assets.xcassets in Resources */,
-				3F644AC5255A164200C055BC /* Beer.jpg in Resources */,
-				3F644AC3255A160C00C055BC /* Wine.png in Resources */,
 				3F397B93254C8343007678B8 /* Main.storyboard in Resources */,
-				3F644AC7255A16A800C055BC /* Liquor.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7B4A5BFE9324680C55693E54 /* [CP] Embed Pods Frameworks */ = {
+		39F4F7BE806F0C7344D471F6 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Spirit Response/Pods-Spirit Response-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Spirit Response/Pods-Spirit Response-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Spirit Response/Pods-Spirit Response-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Spirit Response/Pods-Spirit Response-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Spirit Response/Pods-Spirit Response-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Spirit Response/Pods-Spirit Response-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CEC5C2243DA2F4811B4BD3FA /* [CP] Check Pods Manifest.lock */ = {
+		D5F34939D53F993700BDE235 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,9 +220,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F1831C6256643AC00D4CE66 /* AppDelegate.swift in Sources */,
 				3F7824002562F70600876DD8 /* SpiritCalculatorViewController.swift in Sources */,
 				3F397B8E254C8343007678B8 /* SceneDelegate.swift in Sources */,
-				3FAD95902566216500A652F8 /* AppDelegate.swift in Sources */,
 				3F7823FD2562F67600876DD8 /* ResponsesLogViewController.swift in Sources */,
 				3F7824032562F72D00876DD8 /* SpiritFromIoTViewController.swift in Sources */,
 				3FAD958D2566203800A652F8 /* ResponseViewController.swift in Sources */,
@@ -302,6 +290,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -363,6 +352,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -383,7 +373,7 @@
 		};
 		3F397B9D254C8344007678B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17DB40CA3C595B5A459C8DDF /* Pods-Spirit Response.debug.xcconfig */;
+			baseConfigurationReference = D4A1D7C3CBF3E3926AE5D041 /* Pods-Spirit Response.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -416,7 +406,7 @@
 		};
 		3F397B9E254C8344007678B8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF987179AC9E311A86E7E70D /* Pods-Spirit Response.release.xcconfig */;
+			baseConfigurationReference = 9E5D6ED0BC6E52B16733C10B /* Pods-Spirit Response.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
