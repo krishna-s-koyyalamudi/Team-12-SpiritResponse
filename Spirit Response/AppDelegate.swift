@@ -2,12 +2,11 @@
 //  AppDelegate.swift
 //  Spirit Response
 //
-//  Created by Student on 10/30/20.
+//  Created by Student on 11/18/20.
 //
 
 import UIKit
 import Parse
-
 
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -15,6 +14,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+//        let configuration = ParseClientConfiguration {
+//            $0.applicationId = "PASTE_YOUR_APPLICATION_ID_HERE"
+//            $0.clientKey = "PASTE_YOUR_CLIENT_ID_HERE"
+//            $0.server = "https://parseapi..com"
+//        }
+//        Parse.initialize(with: configuration)
         return true
     }
 
@@ -50,4 +55,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 }
-
