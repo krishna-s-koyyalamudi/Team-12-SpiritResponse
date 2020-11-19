@@ -21,12 +21,11 @@
 		3F7824032562F72D00876DD8 /* SpiritFromIoTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7824022562F72D00876DD8 /* SpiritFromIoTViewController.swift */; };
 		3FAD958D2566203800A652F8 /* ResponseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAD958C2566203800A652F8 /* ResponseViewController.swift */; };
 		3FEFC7C92566E1C000B03717 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFC7C82566E1C000B03717 /* AppDelegate.swift */; };
-		4BF895983AF11057835EBAEC /* Pods_Spirit_Response.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D75AE9761CAFC3F30EE5E2 /* Pods_Spirit_Response.framework */; };
+		7E70C9BB388BCD231E22DFD6 /* libPods-Spirit Response.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 650B6BA00202F1D0A3CCED2A /* libPods-Spirit Response.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		17DB40CA3C595B5A459C8DDF /* Pods-Spirit Response.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spirit Response.debug.xcconfig"; path = "Target Support Files/Pods-Spirit Response/Pods-Spirit Response.debug.xcconfig"; sourceTree = "<group>"; };
-		18D75AE9761CAFC3F30EE5E2 /* Pods_Spirit_Response.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spirit_Response.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F397B88254C8343007678B8 /* Spirit Response.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spirit Response.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F397B8D254C8343007678B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3F397B92254C8343007678B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -43,6 +42,7 @@
 		3F7824022562F72D00876DD8 /* SpiritFromIoTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritFromIoTViewController.swift; sourceTree = "<group>"; };
 		3FAD958C2566203800A652F8 /* ResponseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseViewController.swift; sourceTree = "<group>"; };
 		3FEFC7C82566E1C000B03717 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		650B6BA00202F1D0A3CCED2A /* libPods-Spirit Response.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Spirit Response.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF987179AC9E311A86E7E70D /* Pods-Spirit Response.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spirit Response.release.xcconfig"; path = "Target Support Files/Pods-Spirit Response/Pods-Spirit Response.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BF895983AF11057835EBAEC /* Pods_Spirit_Response.framework in Frameworks */,
+				7E70C9BB388BCD231E22DFD6 /* libPods-Spirit Response.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,7 +110,7 @@
 		689E8A278D2F8B2711A80873 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				18D75AE9761CAFC3F30EE5E2 /* Pods_Spirit_Response.framework */,
+				650B6BA00202F1D0A3CCED2A /* libPods-Spirit Response.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -126,7 +126,7 @@
 				3F397B84254C8343007678B8 /* Sources */,
 				3F397B85254C8343007678B8 /* Frameworks */,
 				3F397B86254C8343007678B8 /* Resources */,
-				7B4A5BFE9324680C55693E54 /* [CP] Embed Pods Frameworks */,
+				3406E4C172CAD5221259A984 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -186,21 +186,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7B4A5BFE9324680C55693E54 /* [CP] Embed Pods Frameworks */ = {
+		3406E4C172CAD5221259A984 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Spirit Response/Pods-Spirit Response-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Spirit Response/Pods-Spirit Response-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Spirit Response/Pods-Spirit Response-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Spirit Response/Pods-Spirit Response-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Spirit Response/Pods-Spirit Response-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Spirit Response/Pods-Spirit Response-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CEC5C2243DA2F4811B4BD3FA /* [CP] Check Pods Manifest.lock */ = {
