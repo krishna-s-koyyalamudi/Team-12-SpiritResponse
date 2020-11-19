@@ -1,0 +1,6 @@
+module Pods_Spirit_Response {
+  umbrella header "Pods-Spirit Response-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -20,7 +20,7 @@
 		3F7824002562F70600876DD8 /* SpiritCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7823FF2562F70600876DD8 /* SpiritCalculatorViewController.swift */; };
 		3F7824032562F72D00876DD8 /* SpiritFromIoTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7824022562F72D00876DD8 /* SpiritFromIoTViewController.swift */; };
 		3FAD958D2566203800A652F8 /* ResponseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAD958C2566203800A652F8 /* ResponseViewController.swift */; };
-		3FAD95902566216500A652F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAD958F2566216500A652F8 /* AppDelegate.swift */; };
+		3FEFC7C92566E1C000B03717 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFC7C82566E1C000B03717 /* AppDelegate.swift */; };
 		4BF895983AF11057835EBAEC /* Pods_Spirit_Response.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D75AE9761CAFC3F30EE5E2 /* Pods_Spirit_Response.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +42,7 @@
 		3F7823FF2562F70600876DD8 /* SpiritCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritCalculatorViewController.swift; sourceTree = "<group>"; };
 		3F7824022562F72D00876DD8 /* SpiritFromIoTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritFromIoTViewController.swift; sourceTree = "<group>"; };
 		3FAD958C2566203800A652F8 /* ResponseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseViewController.swift; sourceTree = "<group>"; };
-		3FAD958F2566216500A652F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		3FEFC7C82566E1C000B03717 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF987179AC9E311A86E7E70D /* Pods-Spirit Response.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spirit Response.release.xcconfig"; path = "Target Support Files/Pods-Spirit Response/Pods-Spirit Response.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,7 +88,7 @@
 		3F397B8A254C8343007678B8 /* Spirit Response */ = {
 			isa = PBXGroup;
 			children = (
-				3FAD958F2566216500A652F8 /* AppDelegate.swift */,
+				3FEFC7C82566E1C000B03717 /* AppDelegate.swift */,
 				3F397B8D254C8343007678B8 /* SceneDelegate.swift */,
 				3FAD958C2566203800A652F8 /* ResponseViewController.swift */,
 				3F7823F92562F52500876DD8 /* ResponsesGraphViewController.swift */,
@@ -232,9 +232,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FEFC7C92566E1C000B03717 /* AppDelegate.swift in Sources */,
 				3F7824002562F70600876DD8 /* SpiritCalculatorViewController.swift in Sources */,
 				3F397B8E254C8343007678B8 /* SceneDelegate.swift in Sources */,
-				3FAD95902566216500A652F8 /* AppDelegate.swift in Sources */,
 				3F7823FD2562F67600876DD8 /* ResponsesLogViewController.swift in Sources */,
 				3F7824032562F72D00876DD8 /* SpiritFromIoTViewController.swift in Sources */,
 				3FAD958D2566203800A652F8 /* ResponseViewController.swift in Sources */,
