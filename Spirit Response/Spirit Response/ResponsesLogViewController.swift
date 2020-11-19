@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Parse
 
 /// ResponsesLogViewController to represent the responses log
 class ResponsesLogViewController: UITableViewController {

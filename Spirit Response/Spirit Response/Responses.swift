@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Parse
 
 // Response struct
 struct Response {
@@ -17,7 +18,6 @@ struct Response {
 /// Model for response database table
 class Responses {
     private static var _shared:Responses!
-    
     static var shared:Responses {
         if _shared == nil {
             _shared = Responses()

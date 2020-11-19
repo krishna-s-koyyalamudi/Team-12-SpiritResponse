@@ -2,10 +2,11 @@
 //  ResponseViewController.swift
 //  Spirit Response
 //
-//  Created by Student on 11/16/20.
+//  Created by Student on 11/18/20.
 //
 
 import UIKit
+import Parse
 
 /// ResponseViewController class for home page
 class ResponseViewController: UIViewController {

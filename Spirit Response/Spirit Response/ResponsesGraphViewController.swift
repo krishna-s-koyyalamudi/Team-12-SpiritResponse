@@ -6,6 +6,9 @@
 //
 
 import UIKit
+import Charts
+import TinyConstraints
+import Parse
 
 // ResponsesGraphViewController class to represent the graph
 class ResponsesGraphViewController: UIViewController {
