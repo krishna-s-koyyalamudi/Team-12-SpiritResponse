@@ -411,7 +411,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.Spirit-Response";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Spirit Response/Spirit Response-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,7 +447,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.Spirit-Response";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Spirit Response/Spirit Response-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

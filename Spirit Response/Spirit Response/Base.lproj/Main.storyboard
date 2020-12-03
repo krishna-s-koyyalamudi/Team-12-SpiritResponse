@@ -55,7 +55,7 @@
                     <navigationItem key="navigationItem" id="oZm-3C-Qfq"/>
                     <connections>
                         <outlet property="blinkingButton" destination="R1q-fg-leY" id="3mc-lY-22Q"/>
-                        <outlet property="reactionAreaView" destination="x2X-5a-MfY" id="bzf-Jx-Mkd"/>
+                        <outlet property="responseAreaView" destination="S2s-Mi-ANM" id="fJl-HY-4eS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="beE-8z-wB8" sceneMemberID="firstResponder"/>
