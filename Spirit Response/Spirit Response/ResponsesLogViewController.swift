@@ -45,7 +45,7 @@ class ResponsesLogViewController: UITableViewController {
         return 1
     }
     
-    /// Returns the number of responses
+    /// Returns the number of responses by taking number of rows in section
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return responses.numResponses()
     }
@@ -54,7 +54,7 @@ class ResponsesLogViewController: UITableViewController {
     let timeLBLTag = 100
     let dayLBLTag = 200
     
-    /// To store and display the values
+    /// To store and display the final values
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "bac", for: indexPath)
         if responses[indexPath.row] != nil {
