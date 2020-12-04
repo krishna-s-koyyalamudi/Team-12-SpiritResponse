@@ -14,7 +14,7 @@ import Parse
 class ResponsesGraphViewController: UIViewController {
     var responses = Responses.shared
     
-    /// Outlets for slider and label
+    /// Outlets for slider and counter label
     @IBOutlet weak var responseSlider:UISlider!
     @IBOutlet weak var responseCountLBL:UILabel!
     
@@ -25,7 +25,7 @@ class ResponsesGraphViewController: UIViewController {
     /// static data as of now to display graph, y values as response time in seconds, x axis as number of responses.
     var graphValues:[ChartDataEntry] = []
     
-    /// lineChartView for displaying the chart
+    /// returns lineChartView for displaying the chart
     lazy var lineChartView: LineChartView = {
         let lineChartView = LineChartView()
         lineChartView.backgroundColor = .systemGray
@@ -60,7 +60,7 @@ class ResponsesGraphViewController: UIViewController {
         setData(sender: responseSlider)
     }
     
-    /// setData funcion to set data on graph
+    /// setData funcion to set data on graph and gives line chart
     func setData(sender:UISlider){
         let percentageValue  = Int(floor(sender.value * Float(responses.numResponses())))
         self.graphValues = []
