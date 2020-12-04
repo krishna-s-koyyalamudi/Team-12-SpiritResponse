@@ -19,7 +19,7 @@ class SpiritCalculatorViewController: UIViewController {
     private var minutes:Double = 0.0
     private var numResult:String = ""
     
-    ///Variables for calculations
+    ///Variables for calculations based on gender, time consumption.
     private var eliminationRate = 0.00017
     private var timeConsuming:Double = 0.0
     private var gender:Double = 0.0
@@ -67,7 +67,7 @@ class SpiritCalculatorViewController: UIViewController {
         femaleBTN.backgroundColor = UIColor.white
     }
     
-    /// calculate to calculate the BAC
+    /// calculate to calculate the BAC based upon the beer field,wine,liquor, time field
     /// - Parameter sender: UIButton
     @IBAction func calculate(sender: Any){
         if gender == 0.0 {
