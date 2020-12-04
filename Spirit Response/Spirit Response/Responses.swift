@@ -104,14 +104,12 @@ class Responses {
         response["startTime"] = startTime
         response["endTime"] = endTime
         response["user"] = "new"
-        response.saveInBackground {
-            (success: Bool, error: Error?) -> Void in
-            
-            if (success) {
+        response.saveInBackground {(success, error) -> Void in
+            if error == nil {
                 print("success")
             }
             else{
-                print("error")
+                print("error!")
             }
         }
         self.responses.append(Response(startTime: startTime, endTime: endTime, user: "new"))

@@ -17,19 +17,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RnR-gb-t0O">
-                                <rect key="frame" x="62" y="669" width="102" height="96"/>
+                                <rect key="frame" x="74" y="668" width="49" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="startBtn" image="icons8-next-96"/>
                                 <connections>
                                     <action selector="startBtn:" destination="jj7-ik-uLW" eventType="touchUpInside" id="RSv-ZO-cya"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Z5-Pg-ZPL">
-                                <rect key="frame" x="247" y="662" width="111" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="stopBtn" image="icons8-stop-squared-96"/>
-                                <connections>
-                                    <action selector="stopBtn:" destination="jj7-ik-uLW" eventType="touchUpInside" id="HOp-qd-bhp"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x2X-5a-MfY" userLabel="Response Area View">
@@ -41,13 +33,20 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="responseBtn" image="icons8-float-96"/>
                                         <connections>
-                                            <action selector="reactionBtn:" destination="jj7-ik-uLW" eventType="touchUpInside" id="lPX-Nx-8Tc"/>
-                                            <action selector="responseBTN:" destination="jj7-ik-uLW" eventType="touchUpInside" id="fGO-S4-Bue"/>
+                                            <action selector="responseBTN:" destination="jj7-ik-uLW" eventType="touchUpInside" id="4aq-rC-1OR"/>
                                         </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Z5-Pg-ZPL">
+                                <rect key="frame" x="292" y="668" width="51" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="stopBtn" image="icons8-stop-squared-96"/>
+                                <connections>
+                                    <action selector="stopBtn:" destination="jj7-ik-uLW" eventType="touchUpInside" id="HOp-qd-bhp"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="UA8-pQ-uc4"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -55,7 +54,7 @@
                     <navigationItem key="navigationItem" id="oZm-3C-Qfq"/>
                     <connections>
                         <outlet property="blinkingButton" destination="R1q-fg-leY" id="3mc-lY-22Q"/>
-                        <outlet property="responseAreaView" destination="S2s-Mi-ANM" id="fJl-HY-4eS"/>
+                        <outlet property="responseAreaView" destination="x2X-5a-MfY" id="ZpO-T0-Bs4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="beE-8z-wB8" sceneMemberID="firstResponder"/>
