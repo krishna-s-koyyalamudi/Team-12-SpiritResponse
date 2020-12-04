@@ -3,7 +3,7 @@ iOS Mobile Computing Final Project
 ## Team Members: 
 - Krishna Sumanth Koyyalamudi
 - Swaroopa Tirumalareddy
-- Detailed description of text fields, UILables, buttons :
+### Detailed description of text fields, UILables, buttons :
 
 - Buttons: 
     In our proposed project we are using a total of 7 buttons 
